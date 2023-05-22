@@ -22,3 +22,12 @@ Fallback-Mechanismus: Falls keine Datenbankverbindung verfügbar ist oder die CS
 
 Durch die Implementierung der Repository-Klasse wird eine klar strukturierte und wiederverwendbare Komponente geschaffen, die den Datenzugriff vereinfacht und die Wartbarkeit des Codes verbessert.
 ![image](https://github.com/elboudi1988/SuperDupermarket/assets/102913853/1472ee01-c3ca-459c-bd95-2eb66fedec67)
+
+
+![Bildschirm­foto 2023-05-22 um 15 56 44](https://github.com/elboudi1988/SuperDupermarket/assets/102913853/860a6efd-93af-42e1-a551-8f993b1f159a)
+
+
+![Bildschirm­foto 2023-05-22 um 15 57 02](https://github.com/elboudi1988/SuperDupermarket/assets/102913853/50970266-947c-4a4d-9a3c-43b51066fa9e)
+
+
+
