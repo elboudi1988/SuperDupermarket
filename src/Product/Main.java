@@ -43,18 +43,11 @@ public class Main {
                 String infoVerfaellt =(produkt.warnungBevorAblauf(today.plusDays(i))?"Verfällt bald":"");
                 String infoQualität=((produkt.ausraeumen())?"Niedrige Qualität":"");
                 String infoAbgelaufen=((produkt.istAbgelaufen(today.plusDays(i)))?"Abgelaufen":"");
-                String info = "";
-                if (!infoAbgelaufen.isEmpty()) {
-                    info = infoAbgelaufen;
-                } else if (!infoVerfaellt.isEmpty()) {
-                    info = infoVerfaellt;
-                }
+                String info = !infoAbgelaufen.isEmpty() ? infoAbgelaufen :
+                        (!infoVerfaellt.isEmpty() ? infoVerfaellt : "");
+
                 if (!infoQualität.isEmpty()) {
-                    if (!info.isEmpty()) {
-                        info += ", " + infoQualität;
-                    } else {
-                        info = infoQualität;
-                    }
+                    info += !info.isEmpty() ? ", " + infoQualität : infoQualität;
                 }
 
                 String entsorgt = (produkt.ausraeumen() || produkt.istAbgelaufen(today.plusDays(i))) ? "entsorgen." : "-";
