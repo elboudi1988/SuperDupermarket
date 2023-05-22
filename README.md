@@ -30,4 +30,9 @@ Durch die Implementierung der Repository-Klasse wird eine klar strukturierte und
 ![Bildschirm­foto 2023-05-22 um 15 57 02](https://github.com/elboudi1988/SuperDupermarket/assets/102913853/50970266-947c-4a4d-9a3c-43b51066fa9e)
 
 
+![Bildschirm­foto 2023-05-22 um 17 47 00](https://github.com/elboudi1988/SuperDupermarket/assets/102913853/acd31918-acb7-43a5-88f1-c8620ed54dec)
+
+
+
+
 
