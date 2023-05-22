@@ -28,10 +28,5 @@ public class Kaese extends Product {
     }
 
 
-    public void updatePrice(){
-        double newPrice = getPreis() + (0.10 * getNewQuality());
-        newPrice = Math.round(newPrice * 100.0) / 100.0;
-        setNewPrice(newPrice);
-    }
 
 }

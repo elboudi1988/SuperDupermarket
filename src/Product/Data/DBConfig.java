@@ -17,7 +17,7 @@ public class DBConfig {
     private static Connection connection;
 
     public static boolean connectToDatabase() {
-        String url = "jdbc:sqlserver://localhost:1433;encrypt=false;databaseName=SuperDuperMarktDB;user=sa;password=";
+        String url = "jdbc:sqlserver://localhost:1433;encrypt=false;databaseName=SuperDuperMarktDB;user=sa;password=QWasyx12";
         try {
             connection = DriverManager.getConnection(url);
             createTable();
@@ -36,7 +36,7 @@ public class DBConfig {
             DatabaseMetaData dbm = connection.getMetaData();
             ResultSet tables = dbm.getTables(null, null, "produkte", null);
             if (tables.next()) {
-                System.out.println("Table 'produkte' already exists!");
+                System.out.println("\n" +"Tabelle 'Produkte' existiert bereits!"+"\n" );
             }
             else {
                 Statement stmt = connection.createStatement();

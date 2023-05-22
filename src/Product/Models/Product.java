@@ -112,10 +112,17 @@ public abstract class Product {
         }
     }
 
+    public void updatePrice(){
+        double newPrice = getPreis() + (0.10 * getNewQuality());
+        newPrice = Math.round(newPrice * 100.0) / 100.0;
+        setNewPrice(newPrice);
+    }
 
     public boolean warnungBevorAblauf(LocalDate localDate) {
         return LocalDate.now().plusDays(2).equals(this.getVerfallsdatum());
     }
+
+
 
 
 }
