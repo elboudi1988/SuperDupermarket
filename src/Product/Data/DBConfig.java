@@ -17,7 +17,7 @@ public class DBConfig {
     private static Connection connection;
 
     public static boolean connectToDatabase() {
-        String url = "jdbc:sqlserver://localhost:1433;encrypt=false;databaseName=SuperDuperMarktDB;user=sa;password=QWasyx12";
+        String url = "jdbc:sqlserver://localhost:1433;encrypt=false;databaseName=SuperDuperMarktDB;user=sa;password=";
         try {
             connection = DriverManager.getConnection(url);
             createTable();
