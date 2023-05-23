@@ -58,6 +58,7 @@ public abstract class Product {
         return lieferTag;
     }
 
+
     public void setLieferTag(LocalDate lieferTag) {
         this.lieferTag = lieferTag;
     }
@@ -112,6 +113,8 @@ public abstract class Product {
         }
     }
 
+
+    // Diese Methode wird nicht von der Klasse "Wein" vererbt.
     public void updatePrice(){
         double newPrice = getPreis() + (0.10 * getNewQuality());
         newPrice = Math.round(newPrice * 100.0) / 100.0;
