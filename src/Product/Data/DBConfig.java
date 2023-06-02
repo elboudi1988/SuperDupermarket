@@ -1,5 +1,4 @@
 package Product.Data;
-
 import Product.Models.Allgemein;
 import Product.Models.Kaese;
 import Product.Models.Product;

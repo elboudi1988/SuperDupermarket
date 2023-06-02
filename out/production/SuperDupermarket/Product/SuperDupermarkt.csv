@@ -1,10 +1,10 @@
 ﻿Bezeichnung;Qualität;LieferTag;Verfallsdatum;Preis;Anzahl;Typ;;;
 Gouda;50;08.05.23;16.08.23;3.50;10;Käse;;;
-Merlot;60;08.05.23;;5.00;20;Wein;;;
+Merlot;40;08.05.23;;5.00;20;Wein;;;
 Apfel;80;04.04.23;30.06.23;0.30;100;Allgemein;;;
 Brot;90;09.05.23;26.05.23;1.50;50;Allgemein;;;
 Cheddar;45;13.05.23;30.08.23;4.00;15;Käse;;;
-Riesling;70;08.05.23;;6.50;30;Wein;;;
+Riesling;48;08.05.23;;6.50;30;Wein;;;
 Milch;95;02.05.23;25.05.23;0.80;60;Allgemein;;;
 Orangensaft;100;07.05.23;30.05.23;2.00;40;Allgemein;;;
 Hähnchenbrust;90;03.04.23;24.05.23;4.50;25;Allgemein;;;

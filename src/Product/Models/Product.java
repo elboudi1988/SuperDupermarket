@@ -33,7 +33,7 @@ public abstract class Product {
 
 
     public String toString() {
-        return "Product.Models.Produkt{" +
+        return "Product.Models.Product{" +
                 "bezeichnung='" + bezeichnung + '\'' +
                 ", qualitaet=" + qualitaet +
                 ", verfallsdatum=" + verfallsdatum +
@@ -114,7 +114,7 @@ public abstract class Product {
     }
 
 
-    // Diese Methode wird nicht von der Klasse "Wein" vererbt.
+    // Diese Methode wird nicht von der Klasse "Wein" geerbt.
     public void updatePrice(){
         double newPrice = getPreis() + (0.10 * getNewQuality());
         newPrice = Math.round(newPrice * 100.0) / 100.0;

@@ -7,7 +7,7 @@ import java.time.temporal.ChronoUnit;
 public class Wein extends Product {
 
     public Wein(String bezeichnung,int newQuality, int qualitaet,LocalDate lieferTag , LocalDate verfallsdatum,double newPrice, double preis, String typ) {
-        super(bezeichnung,newQuality,qualitaet >= 0 ? qualitaet : 0,lieferTag, verfallsdatum,newPrice,preis, typ);
+        super(bezeichnung,newQuality,qualitaet ,lieferTag, verfallsdatum,newPrice,preis, typ);
     }
 
     @Override
@@ -33,9 +33,6 @@ public class Wein extends Product {
             this.setQualitaet(0);
         }
     }
-
-
-
 
 }
 
